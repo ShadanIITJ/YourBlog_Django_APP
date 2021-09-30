@@ -1,0 +1,23 @@
+first setupt
+Terminal - > 
+        1. python -m venv myenv
+
+        you will see one env folder
+
+        2. myenv\Scripts\activate.bat
+                you will see like that (myenv) C:\Shadan\project\django_project>
+        
+        3. pip install -r requirement.txt
+
+
+// process to run application  everytime
+
+1. myenv\Scripts\activate.bat
+2. python manage.py runserver 8080    // this will run your application locally
+python manage.py runserver 0.0.0.0:8080 // this will run globally
+
+for data base view go to
+        http://127.0.0.1:8080/admin/
+        user_id = admin
+        password = admin
+        
